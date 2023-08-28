@@ -1,10 +1,10 @@
 import React from 'react';
 import cartSvg from '../../assets/cart.svg'
 import classes from './HeaderCartButton.module.css';
-const HeaderCartButton = () => {
+const HeaderCartButton = (props) => {
   return (
     <>
-    <button className={classes.button}>
+    <button className={classes.button} onClick={props.onClick}>
         <span className={classes.icon}>
         <img className={classes.icon} src={cartSvg} alt="Cart icon" />
         </span>

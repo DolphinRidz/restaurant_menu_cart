@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import classes from './Card.module.css';
 
 const Card = (props) => {
@@ -7,4 +7,4 @@ const Card = (props) => {
   )
 }
 
-export default Card
+export default Card;
